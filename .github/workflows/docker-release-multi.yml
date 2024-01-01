@@ -2,7 +2,7 @@ name: Docker build and push to github voucher/vouch-proxy:latest-arm
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, multi_build ]
 
 jobs:
   build-and-push:
